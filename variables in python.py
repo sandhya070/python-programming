@@ -8,7 +8,7 @@ print(sum)
 
 item1= "banana"
 item2= "apple"
-item3= "mango"
+item3= "choclate"
 total=item1+item2+item3
 print(total)
 
