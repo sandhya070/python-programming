@@ -7,3 +7,5 @@ items=["stearing cover","break pads","engine oil","clutch wire"]
 print(items)
 print(items[2])
 print("the third item in the itesm list is:",item2)
+items= print(item2[:11])
+print(items)
