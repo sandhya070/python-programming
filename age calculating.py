@@ -12,4 +12,11 @@ def calculate_age(born):
     today = date.today()
     return today.year - born.year - ((today.month, today.day) < (born.month, born.day))
 
-
+###project done after correcting errors
+def ageCalculator(y, m, d):
+    import datetime
+    today = datetime.datetime.now().date()
+    dob = datetime.date(y, m, d)
+    age = int((today-dob).days / 365.25)
+    print(age)
+ageCalculator(1998, 9, 3)
