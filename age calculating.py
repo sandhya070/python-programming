@@ -20,3 +20,5 @@ def ageCalculator(y, m, d):
     age = int((today-dob).days / 365.25)
     print(age)
 ageCalculator(1998, 9, 3)
+
+#checking git hub 
